@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import './Client.css'
 import clients from '../exports/clientExports'
-import ClientCard from './clientCard'
+import ClientCard from './ClientCard'
 
 const Client = () => {
 
