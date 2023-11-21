@@ -15,7 +15,6 @@ const Contact = () => {
   const formSubmission = (e) => {
     e.preventDefault()
     window.sessionStorage.setItem("details", JSON.stringify(details))
-    console.log(window.sessionStorage.getItem("details"))
   }
 
   return (
