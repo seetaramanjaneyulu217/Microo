@@ -1,0 +1,14 @@
+.slick-dots li button::before{
+    font-size: 33px;
+    color: white;
+}
+
+.slick-dots li {
+    margin-top: 1px;
+    width: 3%;
+    color: white;
+}
+
+.slick-dots {
+    height: 0px;
+}
