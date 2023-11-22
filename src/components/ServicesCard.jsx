@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const ServicesCard = ({ service }) => {
+
     return (
         <>
             {/* Main div */}
-            <div className='mb-7'>
+            <div className='mb-7 hover:scale-110 hover:ease-in hover:duration-500 hover:cursor-pointer'>
                 {/* For first circle and content */}
                 <div className='flex flex-col justify-center items-center'>
                     {/* For circle */}
